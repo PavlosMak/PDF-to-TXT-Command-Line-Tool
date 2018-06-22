@@ -32,6 +32,6 @@ f = open(filename,'w')
 for i in range(pages):
     page = pdf_reader.getPage(i)
     page = page.extractText()
-    f.write(page)
+    f.write(page + ' \n')
 
 f.close()
