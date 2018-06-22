@@ -10,7 +10,7 @@ $pip install PyPDF2
 ## Usage ##
 To use the script you simply have to navigate to the directory you have saved the python file and then run:
 ```
-$python pdf_to_txt.py /path/to/pdf.file /where/to/create/text.txt name_of_txt_file 
+$python pdf_to_txt.py /path/to/file.pdf /where/to/create/txt/file name_of_txt_file 
 ```
 In case that the PDF is encrypted you need to add the password as a forth argument:
 ```
